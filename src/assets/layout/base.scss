@@ -1,0 +1,19 @@
+body {
+	background-color: $primary;
+	margin: 0 auto;
+	width: 90%;
+	padding: 10px;
+}
+
+header {
+	margin: 0 auto;
+	text-align: center;
+	color: $white;
+	font-size: 26px;
+}
+
+#app {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

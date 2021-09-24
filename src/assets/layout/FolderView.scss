@@ -1,0 +1,51 @@
+.folder {
+	width: 20%;
+	height: 200px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	background: url('../img/folder.svg') 50% no-repeat;
+	background-size: 100px 100px;
+	transition: background-size linear .2s;
+	cursor: pointer;
+}
+
+.folder:hover {
+	background-size: 140px 140px;
+}
+
+p {
+	font-size: 26px;
+	text-align: center;
+}
+
+// Media
+@media (max-width: 977px) {
+	p {font-size: 20px;}
+}
+
+@media (max-width: 768px) {
+	p {
+		font-size: 16px;
+	}
+	.folder {
+		height: 150px;
+		background-size: 70px 70px;
+	}
+	.folder:hover {
+		background-size: 100px 100px;
+	}
+}
+
+@media (max-width: 577px) {
+	p {
+		font-size: 10px !important;
+	}
+}
+
+@media (max-width: 320px) {
+	.folder {
+		width: 100%;
+	}
+}
